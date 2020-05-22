@@ -20,8 +20,8 @@ h2{
 }
 #header{
 background:#ddd;
-color: black;
-background-image: url("https://www.ecopetit.cat/wpic/mpic/37-379993_px-exam-wallpapers-4wc76kt-teacher-things-in-school.jpg");
+color: white;
+background-image: url("https://image.freepik.com/free-photo/back-school-education-banner-background_8087-1192.jpg");
 filter: blur(0.5px);
 float:left;
 
@@ -58,6 +58,7 @@ display: flex;
 
 float:left;
 width:100%;
+
 color:rgb(0, 0, 2);
 background-color:#89b565;
 padding:10px;
@@ -74,7 +75,7 @@ background:lightgrey;
 table{
     margin-left:2px;
     margin-right:2px;
-	width:25%;
+    width: 25%;
 }
 th{
     background-color: rgb(102, 153, 0);
@@ -100,7 +101,7 @@ tr:hover{
 }
 
 
-@media screen and (min-width: 700px) 
+@media screen and (min-width: 800px) 
 {
 body{
 margin:2px;
@@ -109,8 +110,8 @@ font-size:1.4vw;
 }
 #header{
 background:#ddd;
-color: black;
-background-image: url("https://www.ecopetit.cat/wpic/mpic/37-379993_px-exam-wallpapers-4wc76kt-teacher-things-in-school.jpg");
+color: white;
+background-image: url("https://image.freepik.com/free-photo/back-school-education-banner-background_8087-1192.jpg");
 filter: blur(0.5px);
 float:left;
 width:100%;
@@ -135,7 +136,8 @@ nav a{
 float:left;
 width:18%;
 height:550px;
-background:#c3f2f2;
+background:#09A7A1;
+background-image: url("https://eige.europa.eu/sites/default/files/styles/eige_original_optimised/public/images/education.jpg?itok=aK-f4RNS");
 padding:10px;
 box-sizing:border-box;
 display: block;
@@ -144,6 +146,7 @@ display: block;
 img {
   border: 2px solid black;
   border-radius: 4px;
+  background: rgba(235,255,455,.3);
   padding: 5px;
   width: 170px;
   float: right;
@@ -164,21 +167,21 @@ float:left;
 width:82%;
 height:550px;
 color:rgb(0, 0, 2);
-background-color:#89b565;
+background-color: #f3b3d3;
 padding:10px;
 box-sizing:border-box;
 }
 #footer
 {
-text-align: left;
+text-align: center;
 float:left;
 width:100%;
 height:60px;
-background:lightgrey;
+background:#FF7F00;
 }
 table{
     margin-left:100px;
-	width:80%;
+    width: 80%;
 }
 th{
     background-color: rgb(102, 153, 0);
