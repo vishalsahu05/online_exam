@@ -58,7 +58,6 @@ display: flex;
 
 float:left;
 width:100%;
-
 color:rgb(0, 0, 2);
 background-color:#89b565;
 padding:10px;
@@ -75,6 +74,7 @@ background:lightgrey;
 table{
     margin-left:2px;
     margin-right:2px;
+	width:25%;
 }
 th{
     background-color: rgb(102, 153, 0);
@@ -178,6 +178,7 @@ background:lightgrey;
 }
 table{
     margin-left:100px;
+	width:80%;
 }
 th{
     background-color: rgb(102, 153, 0);
