@@ -10,7 +10,7 @@ img {
   float: right;
 }
 h1{
-	font-size: 5vw;
+	font-size: 4vw;
 	text-align: center;
 	text-decoration: underline;
 }
@@ -22,9 +22,8 @@ h2{
 background:#ddd;
 color: white;
 background-image: url("https://image.freepik.com/free-photo/back-school-education-banner-background_8087-1192.jpg");
-filter: blur(0.5px);
+filter: blur(0.3px);
 float:left;
-
 width:100%;
 box-sizing:border-box;
 }
@@ -46,7 +45,6 @@ nav a{
 }
 #menu{
 width:100%;
-
 background:#fc1230;
 display: flex;
   flex-wrap: row-wrap;
@@ -58,7 +56,6 @@ display: flex;
 
 float:left;
 width:100%;
-
 color:rgb(0, 0, 2);
 background-color:#89b565;
 padding:10px;
