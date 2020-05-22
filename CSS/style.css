@@ -10,7 +10,7 @@ img {
   float: right;
 }
 h1{
-	font-size: 4vw;
+	font-size: 5vw;
 	text-align: center;
 	text-decoration: underline;
 }
@@ -22,14 +22,17 @@ h2{
 background:#ddd;
 color: white;
 background-image: url("https://image.freepik.com/free-photo/back-school-education-banner-background_8087-1192.jpg");
-filter: blur(0.3px);
+filter: blur(0.5px);
 float:left;
 width:100%;
 box-sizing:border-box;
 }
+
+.active{
+    color:rgb(0, 0, 0);
+    background-color:#fff;
+}
 nav a{
-  
-   
     font-style: italic;
     font-family: georgia;
     font-size: 3vw;
@@ -45,6 +48,7 @@ nav a{
 }
 #menu{
 width:100%;
+
 background:#fc1230;
 display: flex;
   flex-wrap: row-wrap;
@@ -56,6 +60,7 @@ display: flex;
 
 float:left;
 width:100%;
+
 color:rgb(0, 0, 2);
 background-color:#89b565;
 padding:10px;
@@ -129,6 +134,9 @@ nav a{
     font-family: cursive;
     font-size:130%;
 }
+.active{
+    color:rgb(0, 0, 0);
+    background-color:#fff;}
 #menu{
 float:left;
 width:18%;
